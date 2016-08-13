@@ -16,4 +16,9 @@ public class MainActivity extends AppCompatActivity {
     private void initView(){
         View view = LayoutInflater.from(this).inflate(R.layout.activity_main,null);
     }
+
+
+    public void test(){
+        
+    }
 }
