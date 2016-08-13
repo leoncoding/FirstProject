@@ -2,6 +2,8 @@ package com.example.liuhai.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView(){
-        
+        View view = LayoutInflater.from(this).inflate(R.layout.activity_main,null);
     }
 }
