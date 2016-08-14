@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
     public void test(){
         String packname = "com.ubtechinc.alpha2english"; /* Android5.0之后获取程序锁的方式是不一样的*/
         String activityname = "";
-       
+       //fffffffffff
     }
 }
